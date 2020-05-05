@@ -3,7 +3,7 @@
         image clasification pokemon
     </title>
     <body>
-        <div>Teachable Machine Image Model</div>
+        <div><h1>Clasification Pokemon</h1></div>
         <button type="button" onclick="init()">Start</button>
         <div id="webcam-container"></div>
         <div id="label-container"></div>
@@ -14,7 +14,7 @@
             // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
             // the link to your model provided by Teachable Machine export panel
-            const URL = "./model.json/";
+            const URL = "./my_model/";
 
             let model, webcam, labelContainer, maxPredictions;
 
@@ -62,7 +62,6 @@
                 }
             }
         </script>
-
 
     </body>
 </html>
